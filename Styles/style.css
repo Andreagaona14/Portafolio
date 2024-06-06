@@ -10,59 +10,110 @@ body{
 
 header{
     width: 100%;
-    height: 25rem;
+    height: 38rem;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    background-color: rgb(125, 166, 255);
+    align-items: flex-start;
+    background-color: #bfe0f8;
 }
 
+.container{
+    height: 20rem;
+}
 header > .container > img {
     width: 10rem;
     height: 10rem;
+    margin-left: 1rem;
 }
 
 header > .container > h1 {
     font-size: 1.5rem;
     text-shadow: 2px 2px 4px #ffffff;
     text-align: center;
+    
 }
 
 .containerTitulo > h2 {
     font-size: 1.5rem;
     text-shadow: 4px 4px 8px #f7d3e8;
     text-align: center;
+    margin: 1rem;
 }
 
 .containerTitulo > p {
     font-size: 1rem;
 }
 
-main > .container1 {
+.container1 > .linea {
+    border: none;
+    width: 90%;
+    height: 10px;
+    background-color:  #105b94;
+    margin:  auto;
+    box-shadow: 5px 2px 5px#0d2a44;
+}
+
+main {
     width: 100%;
     height: 30rem;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main > .container1 {
+    width: 100%;
+    height: 55rem;
     display: flex;
     flex-direction: column;
+    /* background-color: aquamarine; */
 }
 
 main > .container1 > h2 {
     font-size: 1.5rem;
     text-align: center;
+    margin: 1.5rem;
 }
 
 .container-img-text {
-    width: 100%;
-    height: 40rem;
+    width: 85%;
+    height: 50rem;
     display: flex;
+    margin: 1.5rem;
+    background-color: #e2f0fc;
+    border-radius: 10px;
+    align-items: center;
+    border: 2px solid #1272b7;
 }
 
-.container-img-text > img {
-    width: 40%;
+.container-img-text > .img {
+    width: 45%;
     height: 100%;
+    
 }
 
 .container-img-text > .img > img {
     width: 5rem;
     height: 5rem;
+    padding: 0.2rem;
+    margin: 2rem;
+    margin-left: 1rem;
+    /* background-color: #c93986; */
+}
+
+.container-img-text > .text > h4 {
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.container-img-text > .text > p {
+    text-align: center;
+    margin-left: -2rem;
+}
+
+.container-img-text > .text > h5 {
+    font-size: 1rem;
+    text-align: center;
+    margin: 0.8rem;
 }
 
